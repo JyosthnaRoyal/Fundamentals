@@ -1,3 +1,9 @@
+A year is N  said to be leap year 
+1.N is divisble by 4 and
+2.If N is divisble by 100 then N should be divisble by 400
+
+Eg:1900 is divisible by 4 1900 is divisble by 100 but not by 400,so 1900 is not a leap year
+
 import java.util.*;
 import java.io.*;
 
