@@ -1,0 +1,30 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+  public static void main(String args[]) throws IOException {
+    
+    //write your code here
+    Scanner sc = new Scanner(System.in);
+	    char ch = sc.next().charAt(0);
+	    int i,j,k,l;
+	    int spaces = 8;
+	   for(i=1;i<=5;i++)
+	   {
+		   for(j=1;j<=i;j++) {
+			   System.out.print(j);   
+		   }
+		   for(k=1;k<=spaces;k++) {
+			   System.out.print(" ");   
+		   }
+		   spaces = spaces - 2;
+		   for(l=i;l>0;l--) {
+			   System.out.print(l);  
+		   }
+		   System.out.println();
+		   
+	   }
+
+    
+  }
+}
