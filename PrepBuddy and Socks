@@ -1,0 +1,21 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+  public static void main(String args[]) throws IOException {
+    
+    //write your code here
+    Scanner sc = new Scanner(System.in);
+    int i;
+    int T = sc.nextInt();
+    int N [ ] = new int [1000000];
+    
+    for(i=0;i<T;i++)
+    N[i] = sc.nextInt();
+    for(i=0;i<T;i++){
+      
+      System.out.println(N[i]+1);
+      
+    }
+  }
+}
