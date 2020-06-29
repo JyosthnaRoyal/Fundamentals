@@ -1,0 +1,30 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+  public static void main(String args[]) throws IOException {
+    
+    //write your code here
+    Scanner sc = new Scanner(System.in);
+	    int T = sc.nextInt();
+	    int N [ ] = new int [100];
+	    int i,j,result;
+	    for(i=0;i<T;i++)
+	    N[i]=sc.nextInt();
+	    for(i=0;i<T;i++){
+	    	result=0;
+	    	
+	      for(j=1;j<N[i];j++){
+	        if(N[i]%j==0)
+	        result=result+j;
+	        
+	      }
+	      if(result == N[i])
+	      System.out.println("true");
+	      else
+	      System.out.println("false");
+	    }
+
+    
+  }
+}
